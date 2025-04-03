@@ -1,10 +1,14 @@
 Package: com.rpetrich.rocketbootstrap
-Priority: optional
-Section: Tweaks
-Architecture: iphoneos-arm
-Version: 0.3
-Description: Mach lookup support library for inter-process communication on iOS 7
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
 Name: RocketBootstrap
-Depends: firmware (>= 3), mobilesubstrate
+Version: 1.0.9
+Architecture: iphoneos-arm
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Section: Tweaks
+dev: rpetrich
 Tag: purpose::extension, role::developer
-Author: Ryan Petrich
